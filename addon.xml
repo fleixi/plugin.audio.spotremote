@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.spotremote"
+       name="Spotremote" 
+       version="0.9.1" 
+       provider-name="fleixi">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0" />
+        <import addon="service.audio.spotremote" version="0.9.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <language></language>
+        <platform>linux</platform>
+        <source>https://github.com/dersphere/plugin.audio.radio_de</source>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <summary lang="en_GB">Addon to remotely control a running Spotify-Client.</summary>
+        <summary lang="de_DE">Erweiterung um einen laufenden Spotify-Client zu kontrollieren.</summary>
+    </extension>
+</addon>
