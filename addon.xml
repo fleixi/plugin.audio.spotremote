@@ -11,9 +11,9 @@
         <provides>audio</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <language></language>
+        <language>de_DE en_GB</language>
         <platform>linux</platform>
-        <source>https://github.com/dersphere/plugin.audio.radio_de</source>
+        <source>https://github.com/fleixi/plugin.audio.spotremote</source>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <summary lang="en_GB">Addon to remotely control a running Spotify-Client.</summary>
         <summary lang="de_DE">Erweiterung um einen laufenden Spotify-Client zu kontrollieren.</summary>
